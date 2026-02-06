@@ -4,22 +4,24 @@
 
 _Reproducible IBM Z Xplore tooling in a small Docker image._
 
+<br/>
+
+<img src="https://img.shields.io/badge/node.js-22.x-brightgreen?style=for-the-badge" height="30"/>
+<img src="https://img.shields.io/github/languages/count/razeevascx/z-xplore?label=languages&color=orange&style=for-the-badge" height="30"/>
+<img src="https://img.shields.io/github/last-commit/razeevascx/z-xplore?label=last%20commit&color=blue&style=for-the-badge" height="30"/>
+
+<br/>
+
+<b>Built with :</b>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; width: 100%;">
+   <img src="https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker" height="36"/>
+   <img src="https://img.shields.io/badge/-Debian-A81D33?style=for-the-badge&logo=debian" height="36"/>
+   <img src="https://img.shields.io/badge/-Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" height="36"/>
+   <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" height="36"/>
+   <img src="https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" height="36"/>
+   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="36"/>
 </div>
-
-<div align="center">
-
-![Last Commit](https://img.shields.io/github/last-commit/razeevascx/z-xplore?label=last%20commit&color=blue&style=flat-square)
-![Node.js](https://img.shields.io/badge/node.js-22.x-brightgreen?style=flat-square)
-![Languages](https://img.shields.io/github/languages/count/razeevascx/z-xplore?label=languages&color=orange&style=flat-square)
-
-**Built with the tools and technologies:**
-
-![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
-![Debian](https://img.shields.io/badge/-Debian-A81D33?style=flat-square&logo=debian)
-![Node.js](https://img.shields.io/badge/-Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
