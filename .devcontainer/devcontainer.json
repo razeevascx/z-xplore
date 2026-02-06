@@ -1,0 +1,37 @@
+{
+  "name": "IBM Z Xplore ",
+  "image": "razeevascx/z-explore:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "IBM.db2forzosdeveloperextension",
+        "Zowe.vscode-extension-for-zowe",
+        "marvinengelmann.ibm-theme",
+        "IBM.zopeneditor",
+        "bitlang.cobol",
+        "broadcomMFD.cobol-language-support",
+        "BroadcomMFD.debugger-for-mainframe",
+        "IBM.zosconsole",
+        "IBM.zosprogramming"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.associations": {
+          "*.cbl": "cobol",
+          "*.cob": "cobol",
+          "*.cobol": "cobol",
+          "*.jcl": "jcl",
+          "*.rexx": "rexx",
+          "*.rex": "rexx",
+          "*.hlasm": "hlasm"
+        },
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+      }
+    }
+  },
+  "forwardPorts": [
+    3000,
+    8080
+  ]
+}

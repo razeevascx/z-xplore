@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "IBM.db2forzosdeveloperextension",
+    "Zowe.vscode-extension-for-zowe",
+        "marvinengelmann.ibm-theme",
+        "IBM.zopeneditor",
+        "bitlang.cobol",
+        "broadcomMFD.cobol-language-support",
+        "BroadcomMFD.debugger-for-mainframe",
+        "IBM.zosconsole",
+        "IBM.zosprogramming"
+  ]
+}
