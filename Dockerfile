@@ -25,6 +25,11 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+# Ensure ldconfig exists and the cache is initialized for VS Code server checks.
+RUN apt-get update && apt-get install -y libc-bin \
+    && ldconfig \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copy Node.js from builder
 COPY --from=builder /usr/bin/node /usr/bin/node
 COPY --from=builder /usr/bin/npm /usr/bin/npm
@@ -40,4 +45,4 @@ ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
 WORKDIR /workspace
 
-CMD ["/bin/bash"]
+CMD ["sleep", "infinity"]

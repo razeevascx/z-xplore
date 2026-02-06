@@ -1,6 +1,7 @@
 {
   "name": "IBM Z Xplore ",
   "image": "razeevascx/z-explore:latest",
+  "overrideCommand": false,
   "customizations": {
     "vscode": {
       "extensions": [
